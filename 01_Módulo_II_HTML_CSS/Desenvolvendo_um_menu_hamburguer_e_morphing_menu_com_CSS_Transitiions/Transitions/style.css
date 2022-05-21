@@ -28,6 +28,7 @@ body {
 
 .card-wrapper {
     text-align: center;
+    text-shadow: 0 0 2px black;
     display: flex;
     flex-direction: column;
     justify-content: center;
