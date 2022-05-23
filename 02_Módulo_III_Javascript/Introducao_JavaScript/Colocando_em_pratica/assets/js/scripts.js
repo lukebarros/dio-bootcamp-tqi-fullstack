@@ -9,6 +9,9 @@ add.addEventListener('click', function increment(){
     if (count >= 0){
         currentNumber.style.color = 'white';
     }
+    if (count >= 10){
+        add.style.visibility = 'hidden';
+    }
 });
 
 sub.addEventListener('click', function decrement(){
