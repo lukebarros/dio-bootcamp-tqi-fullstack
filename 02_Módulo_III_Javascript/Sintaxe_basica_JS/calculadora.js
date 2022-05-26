@@ -10,7 +10,7 @@ var calculadora = () => {
         alert('Um ou Mais Número(s) inválido(s)');
         return 0;
     }
-    var arrayF = {
+    var objF = {
         1:  function(x, y){
             alert(`O resultado da operação ${x} + ${y} é: ${x + y}`);
         },
@@ -30,7 +30,7 @@ var calculadora = () => {
             alert(`O resultado da operação ${x} ^ ${y} é: ${x ** y}`);
         }
     };
-    arrayF[op](a, b);
+    objF[op](a, b);
 }
 let i = 1;
 while (i == 1){
