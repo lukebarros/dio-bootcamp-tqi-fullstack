@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(187, 187, 187);
+}
+h1 {
+    font-weight: bold;
+    font-family: 'Lucida Sans';
+    color: cadetblue;
+    text-shadow: 2px 2px 2px black;
+
+}
+
+button {
+    text-align: center;
+    font-weight: bold;
+    background-color: cadetblue;
+    border: 2px solid rgb(16, 92, 105);
+    color: antiquewhite;
+}
+
+input {
+    justify-content: center;
+    margin: 5px;
+}
+
+label {
+    font-weight: bold;
+    font-family: 'Lucida Sans';
+    color: black;
+}
+
+.item:checked + label {
+    text-decoration: line-through;
+}
+
