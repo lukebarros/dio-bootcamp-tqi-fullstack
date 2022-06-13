@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -10,6 +11,23 @@ body {
     background-image: url('../img/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.titulo {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.5rem;
+    font-style: bold;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    text-shadow: 5px 3px 10px rgb(0, 0, 0);
+}
+
+p {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.3rem;
+    font-style: bold;
+    color: white;
+    text-align: center;
 }
 
 .card-front {
